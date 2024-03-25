@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="text-color">Shaheed Bhagat Singh</h1>
+    </header>
+    <div class="pages">
+        <div id="home">
+            <h3><a href="./index.html" class="home-page">HOME</a></h3>
+        </div>
+        <div id="contact">
+            <h3><a href="./contact.html" class="contact-page">CONTACT</a></h3>
+        </div>
+    </div>
+    <h2 class="text-color contact-link">Contact</h2>
+
+    <div class="container" id="bio ">
+        <form action="#" method="post" id="form">
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required placeholder="Enter your username">
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required placeholder="Enter your password">
+            </div>
+            <div>
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required
+                    placeholder="Confirm your password">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+            </div>
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required placeholder="Select your date of birth">
+            </div>
+            <div>
+                <label for="color">Favorite Color:</label>
+                <input type="color" id="color" name="color" required placeholder="Choose your favorite color">
+            </div>
+            <div>
+                <label for="contact_method">Preferred Method of Contact:</label>
+                <select id="contact_method" name="contact_method" required>
+                    <option value="" disabled selected>Select</option>
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                    <option value="both">Both</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required placeholder="Enter your message"></textarea>
+            </div>
+            <div class="checkbox-container">
+                <input type="checkbox" id="robot" name="robot" required>
+                <label for="robot">I am not a robot</label>
+            </div>
+
+
+            <button type="submit">Submit</button>
+        </form>
+
+
+
+        <!--  -->
+        <div id="right-container" class="faq-section">
+            <div>
+                <h2 class="text-color">FAQs</h2>
+                <div id="boxes">
+                    <div class="box1">TITLE</div>
+                    <div class="box2"><i>data</i></div>
+                </div>
+                <div id="boxes">
+                    <div class="box1">TITLE</div>
+                    <div class="box2"><i>data</i></div>
+                </div>
+                <div id="boxes">
+                    <div class="box1">TITLE</div>
+                    <div class="box2"><i>data</i></div>
+                </div>
+                <div id="boxes">
+                    <div class="box1">TITLE</div>
+                    <div class="box2"><i>data</i></div>
+                </div>
+                <div id="boxes">
+                    <div class="box1">TITLE</div>
+                    <div class="box2"><i>data</i></div>
+                </div>
+            </div>
+            <div class="resources">
+                <h2 class="text-color">RESOURCES</h2>
+                <a href="https://www.bl.uk/" class="links">British Library</a>
+                <br>
+                <a href="https://www.bl.uk/" class="links">Wikipedia</a>
+                <br>
+                <a href="https://www.bl.uk/" class="links">Britannica</a>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <p>&copy; Aman Tiwari 2024</p>
+    </footer>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,300 @@
+/* Aman Tiwari */
+/* Student number -  */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    /* padding: 20px; */
+    text-align: center;
+    background-color: hsl(60, 10%, 75%);
+}
+
+header {
+    background: linear-gradient(to bottom, #9c4e00, #ffffff, #0a5404);
+    color: black;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+.home-page {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-page {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainsection {
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* margin-top: -35px; */
+    /* width: 100%; */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1px;
+}
+
+#quote-container {
+    border: 3px solid orange;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 50px;
+    width: 90%;
+    height: 150px;
+    gap: 10px;
+    box-shadow: 7px 3px 3px 3px orangered;
+}
+
+#video {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.pages {
+    display: flex;
+    justify-content: space-around;
+    height: 75px;
+    align-items: center;
+    border: 1px solid black;
+    background-color: hsl(120, 31%, 35%);
+    margin-top: 5px;
+}
+
+#home {
+    height: 60px;
+    width: 49%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194, 168, 168);
+    color: hsl(240, 54%, 28%);
+    border: 3px solid hsl(240, 20%, 55%);
+}
+
+#contact {
+    height: 60px;
+    width: 49%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194, 168, 168);
+    color: hsl(240, 54%, 28%);
+    border: 3px solid hsl(240, 20%, 55%);
+}
+
+#biography {
+    width: 65vw;
+}
+
+#right-container {
+    width: 35vw;
+}
+
+.second-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 12px;
+}
+
+#blockquote {
+    width: 50%;
+}
+
+h1,
+h2 {
+    font-variant: small-caps;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: 15px;
+}
+
+blockquote {
+    text-align: justify;
+    border-left: 5px solid #333;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+blockquote cite {
+    font-style: italic;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+iframe {
+    width: 100%;
+    height: 315px;
+    border: 2px solid green;
+    padding: 5px;
+    /* border-radius: 8px; */
+    width: 550px;
+}
+
+footer {
+    background: linear-gradient(to bottom, #9c4e00, #ffffff, #0a5404);
+    color: black;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#firstImage {
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(212, 212, 135);
+}
+
+#secondImage {
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: rgb(212, 212, 135);
+}
+
+#image2,
+#image1 {
+    padding: 2px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.text-color {
+    color: green;
+    text-decoration: underline;
+}
+
+#quote {
+    box-shadow: 0 4px 10px green;
+    width: 600px;
+    height: 70px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.links {
+    text-decoration: none;
+    color: hsl(120, 61%, 26%);
+    font-weight: bold;
+}
+
+.links:hover {
+    color: red;
+}
+
+
+.resources {
+    margin-top: 20px;
+}
+
+#boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.box1 {
+    width: 49%;
+    height: 30px;
+    border: 2px solid hsl(240, 47%, 51%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box2 {
+    width: 49%;
+    height: 30px;
+    border: 2px solid hsl(240, 47%, 51%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* media queries for maximum width of 768px and 480px */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    #biography {
+        width: 100%;
+    }
+
+    #right-container {
+        width: 100%;
+    }
+
+    .second-container {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    .pages {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #home,
+    #contact {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .mainsection {
+        padding: 10px;
+    }
+}
